@@ -6,7 +6,7 @@ class Account < ApplicationRecord
                         format: { with: /\A[\w\-]+\Z/i, message: 'contains invalid characters' },
                         exclusion: { in: RESTRICTED_SUBDOMAINS, message: 'restricted' }
 
-  before_validaiton :downcase_subdomain
+  before_validation :downcase_subdomain
 
 private
   def downcase_subdomain
