@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
